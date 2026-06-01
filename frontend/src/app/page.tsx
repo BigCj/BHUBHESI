@@ -115,9 +115,9 @@ const whyChooseUsData = [
     icon: Compass,
   },
   {
-    title: "Grade 304 Stainless Steel",
-    value: "Solid Steel",
-    desc: "Using the finest premium materials, heavy-duty stainless steels, and elite components.",
+    title: "Premium & Affordable Options",
+    value: "Grade 304 & Galvanised",
+    desc: "Crafted from elite Grade 304 Stainless Steel or highly durable, cost-effective Galvanised Steel to match any budget.",
     icon: Shield,
   },
   {
