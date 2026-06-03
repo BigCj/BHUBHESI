@@ -141,6 +141,36 @@ export default function Homepage() {
   // Gallery items referencing the uploaded images
   const galleryItems = [
     {
+      src: "/assets/work_8.jpg",
+      title: "Bhubesi Exhibition Stand",
+      subtitle: "Custom Mobile Kitchen & Cold Room Showcase",
+    },
+    {
+      src: "/assets/work_6.jpg",
+      title: "Industrial Cold Room Installation",
+      subtitle: "Warehouse Assembly & Fitting",
+    },
+    {
+      src: "/assets/work_7.jpg",
+      title: "HVAC Pipe Brazing & Servicing",
+      subtitle: "Active System Repairs",
+    },
+    {
+      src: "/assets/work_5.jpg",
+      title: "Galvanized Evaporator Fans",
+      subtitle: "Forced Draft Air Blowers",
+    },
+    {
+      src: "/assets/work_9.jpg",
+      title: "Cold Storage Product Poster",
+      subtitle: "Blast Freezer & Chiller Guide",
+    },
+    {
+      src: "/assets/work_4.jpg",
+      title: "Heavy-Duty Scissor Body Lifter",
+      subtitle: "Galvanized Mortuary Transport",
+    },
+    {
       src: "/assets/work_1.jpg",
       title: "Digital Temperature Controller",
       subtitle: "Precision Cold Room Calibration",
@@ -154,11 +184,6 @@ export default function Homepage() {
       src: "/assets/work_3.jpg",
       title: "Secure Compressor Enclosure",
       subtitle: "Outdoor Security Casing",
-    },
-    {
-      src: "/assets/work_4.jpg",
-      title: "Heavy-Duty Scissor Body Lifter",
-      subtitle: "Galvanized Mortuary Transport",
     },
     {
       src: "/assets/flyer.jpg",
