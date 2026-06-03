@@ -141,6 +141,26 @@ export default function Homepage() {
   // Gallery items referencing the uploaded images
   const galleryItems = [
     {
+      src: "/assets/work_1.jpg",
+      title: "Digital Temperature Controller",
+      subtitle: "Precision Cold Room Calibration",
+    },
+    {
+      src: "/assets/work_2.jpg",
+      title: "HVAC Electrical Panel Service",
+      subtitle: "Board Diagnostics & Repairs",
+    },
+    {
+      src: "/assets/work_3.jpg",
+      title: "Secure Compressor Enclosure",
+      subtitle: "Outdoor Security Casing",
+    },
+    {
+      src: "/assets/work_4.jpg",
+      title: "Heavy-Duty Scissor Body Lifter",
+      subtitle: "Galvanized Mortuary Transport",
+    },
+    {
       src: "/assets/flyer.jpg",
       title: "Bhubesi Services Flyer",
       subtitle: "Green & Gold Theme",
