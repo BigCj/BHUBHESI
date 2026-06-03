@@ -17,7 +17,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Bhubesi Incorporated | Specialty Services & Engineering",
   description:
-    "Bhubesi Incorporated is a luxury engineering and specialty service company. Specialists in air conditioners, cold rooms, mobile kitchens, mobile toilets, and mortuary equipment.",
+    "Bhubesi Incorporated is a luxury engineering and specialty service company. Specialists in the supply, repair, and servicing of air conditioners, cold rooms, mobile kitchens, mobile toilets, and mortuary equipment.",
   keywords:
     "Bhubesi Incorporated, Air Conditioners, Cold Rooms, Body Removal Equipment, Casket Lowering Equipment, Mobile Cold Rooms, Mobile Kitchens, Mobile Toilets, Mortuary Body Lifters, Mortuary Cabinets, Mortuary Fridges, Mortuary Shelves, Mortuary Washing Tables",
 };
@@ -110,7 +110,7 @@ export default function RootLayout({
                   “Where Royalty Meets Excellence”
                 </p>
                 <p className="text-xs text-slate-400 max-w-sm mt-2 leading-relaxed">
-                  Specialists in industrial grade air conditioning, commercial refrigeration, custom mobile assets, and state-of-the-art mortuary equipment designed for extreme reliability and elegance.
+                  Specialists in the supply, repair, and servicing of industrial-grade air conditioning, commercial refrigeration, custom mobile assets, and state-of-the-art mortuary equipment.
                 </p>
               </div>
 

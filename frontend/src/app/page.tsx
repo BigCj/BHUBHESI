@@ -32,17 +32,17 @@ const serviceGroups = [
     services: [
       {
         name: "Air Conditioners",
-        desc: "Advanced industrial, corporate, and residential HVAC setups engineered for heavy-duty climate control.",
+        desc: "Supply, installation, repairs, and comprehensive servicing of commercial split units, cassette units, ducted systems, and large VRV/VRF HVAC packages. Built on 10+ years of active environmental engineering experience.",
         icon: Wind,
       },
       {
         name: "Cold Rooms",
-        desc: "Custom-built, temperature-regulated walk-in cold rooms for storage, catering, and logistics.",
+        desc: "Custom-built walk-in cold rooms and freezers. We offer design, supply, installation, emergency repairs, and routine servicing using Grade 304 Stainless Steel and Galvanized Steel panels.",
         icon: Snowflake,
       },
       {
         name: "Mobile Cold Rooms",
-        desc: "Robust, heavy-duty mobile refrigeration trailers designed to preserve perishables on the move.",
+        desc: "Heavy-duty mobile refrigeration trailers. Available for supply, custom fitting, roadside repairs, and regular maintenance for mobile catering and logistics.",
         icon: Truck,
       },
     ],
@@ -53,37 +53,37 @@ const serviceGroups = [
     services: [
       {
         name: "Mortuary Cabinets",
-        desc: "Premium Grade 304 stainless steel cabinets with independent cooling modules and ergonomic sliding racks.",
+        desc: "Premium Grade 304 Stainless Steel and Galvanized Steel cabinets with independent cooling modules and sliding racks. Available for supply, custom installation, repair, and servicing.",
         icon: Compass,
       },
       {
         name: "Mortuary Fridges",
-        desc: "Advanced refrigeration systems with digital temperature tracking, backup alarms, and multi-bay layouts.",
+        desc: "Advanced refrigeration systems with digital tracking and multi-bay layouts. We provide full supply, custom site installation, 24/7 emergency repair, and contract servicing.",
         icon: Snowflake,
       },
       {
         name: "Mortuary Shelves",
-        desc: "Heavy-duty structural storage racks crafted from anti-corrosive stainless steel for severe operations.",
+        desc: "Heavy-duty storage racks crafted from anti-corrosive Stainless Steel and Galvanized Steel. Available for supply, modular installation, custom resizing, and replacement servicing.",
         icon: Compass,
       },
       {
         name: "Mortuary Washing Tables",
-        desc: "Ergonomically designed sanitation stations equipped with built-in drainage, wash sprays, and waste disposals.",
+        desc: "Ergonomic sanitation tables with custom drainage, sprays, and disposals. Fully supplied, fitted, repaired, and serviced by our technical teams.",
         icon: Activity,
       },
       {
         name: "Mortuary Body Lifters",
-        desc: "Hydraulic and electric power-assisted lifters engineered for safe, smooth, and dignified body handling.",
+        desc: "Hydraulic and electric power lifters. We supply, repair, and service these lifting systems to ensure safety and dignity.",
         icon: ArrowDownCircle,
       },
       {
         name: "Body Removal Equipment",
-        desc: "Heavy-duty, quiet-operating trolleys, stretchers, and transport setups optimized for luxury service teams.",
+        desc: "Heavy-duty, quiet-operating trolleys, stretchers, and setups. Available for direct supply, spare parts repair, and operational servicing.",
         icon: Activity,
       },
       {
         name: "Casket Lowering Equipment",
-        desc: "Precision mechanical lowering gears designed for silent, smooth, and ultra-reliable operations during services.",
+        desc: "Precision mechanical lowering gears. We handle supply, warranty protection, expert repairs, and calibration servicing for funeral providers.",
         icon: ArrowDownCircle,
       },
     ],
@@ -94,12 +94,12 @@ const serviceGroups = [
     services: [
       {
         name: "Mobile Kitchens",
-        desc: "Gourmet, restaurant-grade mobile kitchens complete with stainless gas fixtures, prep tables, and extractors.",
+        desc: "Gourmet mobile kitchens complete with stainless and galvanized steel fixtures, prep tables, and gas fittings. Available for supply, custom repairs, and servicing.",
         icon: ChefHat,
       },
       {
         name: "Mobile Toilets",
-        desc: "Sleek, luxury VIP mobile sanitation cabins featuring self-cleaning technology and premium amenities.",
+        desc: "VIP mobile sanitation cabins with self-cleaning technology. Supported by our supply, repair, and custom plumbing servicing networks.",
         icon: Sparkles,
       },
     ],
@@ -256,11 +256,11 @@ export default function Homepage() {
             </h3>
 
             <p className="text-slate-600 text-sm leading-relaxed">
-              Bhubesi Incorporated stands as South Africa’s premier elite manufacturer and servicing giant. Combining heavy industrial durability with elegant corporate finishing, we serve national hospitals, premium dining venues, municipalities, and private service directors with custom systems designed for supreme reliability.
+              Bhubesi Incorporated stands as South Africa’s premier elite manufacturer, supplier, and servicing partner with **more than 10 years of experience in HVAC systems** and mechanical engineering. We handle the supply, installation, emergency repairs, and routine contract servicing of commercial air conditioning, walk-in cold rooms, custom mobile assets, and mortuary systems.
             </p>
 
             <p className="text-slate-500 text-xs md:text-sm leading-relaxed font-light">
-              Every asset carrying the forward-facing white lion head is hand-inspected, precision-welded with Grade 304 anti-microbial stainless steels, and fitted with certified hermetic systems. We operate with a strict nation-wide servicing standard ensuring our air controllers, specialized mortuary equipment, and high-end mobile VIP facilities perform tirelessly under extreme stress.
+              Every asset carrying the forward-facing white lion head is hand-inspected, precision-welded with Grade 304 anti-microbial Stainless Steel and Galvanized Steel, and fitted with certified hermetic systems. We operate with a strict nation-wide servicing standard ensuring our air controllers, specialized mortuary equipment, and high-end mobile VIP facilities perform tirelessly under extreme stress.
             </p>
 
             {/* Quick trust metrics */}
@@ -283,6 +283,22 @@ export default function Homepage() {
                 <p className="text-xs text-slate-500 leading-normal font-light">
                   Active technicians and rapid emergency services deployed 24/7 in every province.
                 </p>
+              </div>
+            </div>
+
+            <div className="mt-6 p-5 rounded-lg border border-slate-100 bg-emerald-500/5 relative">
+              <div className="flex items-center gap-2 text-[#01402c] mb-2">
+                <Briefcase size={16} className="text-[#10b981] flex-shrink-0" />
+                <span className="text-xs font-bold uppercase tracking-wider">Established Business Profile & Key Clients</span>
+              </div>
+              <p className="text-xs text-slate-600 leading-relaxed font-light mb-3">
+                Over the past decade, we have partnered with public institutions and private companies to deliver high-integrity mechanical assets. Our key client segments include:
+              </p>
+              <div className="flex flex-wrap gap-2 text-[10px] font-semibold uppercase tracking-wider">
+                <span className="px-2.5 py-1 rounded bg-white border border-slate-100 text-slate-700">Department of Health</span>
+                <span className="px-2.5 py-1 rounded bg-white border border-slate-100 text-slate-700">Funeral Service Providers</span>
+                <span className="px-2.5 py-1 rounded bg-white border border-slate-100 text-slate-700">Retail Shops</span>
+                <span className="px-2.5 py-1 rounded bg-white border border-slate-100 text-slate-700">Individuals</span>
               </div>
             </div>
           </div>
